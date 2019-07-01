@@ -778,8 +778,8 @@
                             <option name="index" value="8" />
                             <option name="name" value="Imports" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/domain/internal/Customer.kt">
@@ -814,19 +814,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="29" />
-                                            <option name="offset" value="62" />
+                                            <option name="length" value="116" />
+                                            <option name="offset" value="113" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement here the solution" />
                                             <option name="possibleAnswer" value="    fun mapToInternalCustomer(externalCustomer: domain.external.Customer) =&#10;            Customer(externalCustomer.name, externalCustomer.id)&#10;" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="import domain.internal.Customer&#10;&#10;open class CustomerMapper {&#10;&#10;//implement here the solution&#10;&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;&#10;}" />
                                       <option name="trackChanges" value="true" />
