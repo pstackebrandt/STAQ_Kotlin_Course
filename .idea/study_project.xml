@@ -701,8 +701,8 @@
                             <option name="index" value="7" />
                             <option name="name" value="Data Class" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -724,19 +724,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="15" />
+                                            <option name="length" value="75" />
                                             <option name="offset" value="0" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="// class Person" />
                                             <option name="possibleAnswer" value="data class Person(val name: String, val age: Int, val length: Double)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="// class Person" />
                                       <option name="trackChanges" value="true" />
