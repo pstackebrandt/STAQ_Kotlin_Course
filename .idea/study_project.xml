@@ -701,7 +701,7 @@
                             <option name="index" value="7" />
                             <option name="name" value="Data Class" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -730,7 +730,7 @@
                                             <option name="placeholderText" value="// class Person" />
                                             <option name="possibleAnswer" value="data class Person(val name: String, val age: Int, val length: Double)" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
