@@ -477,7 +477,7 @@
                             <option name="name" value="Other Basic Types" />
                             <option name="record" value="-1" />
                             <option name="status" value="Solved" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -509,7 +509,7 @@
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="val myArray = arrayOf(5, 6, 3, 4)&#10;&#10;&#10;fun addingTheArray(){&#10;&#10;    //Write the assignment here&#10;&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;    //try somethings...&#10;}&#10;&#10;" />
                                       <option name="trackChanges" value="true" />
@@ -551,8 +551,8 @@
                             <option name="index" value="5" />
                             <option name="name" value="Classes - constructors" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -578,13 +578,13 @@
                                             <option name="placeholderText" value="//Implement the Car class" />
                                             <option name="possibleAnswer" value="class Car(numberOfWheels:Int){&#10;    constructor(numberOfWheels: Int, color:String): this(numberOfWheels)&#10;&#10;}" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="//Implement the Car class&#10;&#10;/**&#10; * Main function to play around with&#10; */&#10;fun main(args: Array&lt;String&gt;) {&#10;    val car = Car(12,&quot;red&quot;)&#10;    val car2 = Car(12)&#10;}" />
                                       <option name="trackChanges" value="true" />
