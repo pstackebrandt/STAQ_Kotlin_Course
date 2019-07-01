@@ -626,8 +626,8 @@
                             <option name="index" value="6" />
                             <option name="name" value="Classes - fields" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -647,19 +647,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="26" />
+                                            <option name="length" value="70" />
                                             <option name="offset" value="0" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//Create here your classes" />
                                             <option name="possibleAnswer" value="open class Point(val name: String) {&#10;    open fun nrOfCorners() = 0&#10;}&#10;&#10;open class Line(name: String) : Point(name) {&#10;    override fun nrOfCorners() = 2&#10;}&#10;&#10;open class Square(name: String) : Point(name) {&#10;    override fun nrOfCorners() = 4&#10;}" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="//Create here your classes&#10;&#10;/**&#10; * Main method to play with&#10; */&#10;fun main(args: Array&lt;String&gt;) {&#10;}" />
                                       <option name="trackChanges" value="true" />
