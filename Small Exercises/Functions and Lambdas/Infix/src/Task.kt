@@ -1,5 +1,6 @@
-//Implement MyNum with infix here
-
+class MyNum(private val value: Int) {
+    infix fun add(number: Int): Int = value + number
+}
 
 /**
  * Main method to play with
