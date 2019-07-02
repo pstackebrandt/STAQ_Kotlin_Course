@@ -1010,7 +1010,7 @@
                             <option name="index" value="11" />
                             <option name="name" value="Nullable Types - from java" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -1062,12 +1062,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="4" />
-                                            <option name="offset" value="98" />
+                                            <option name="offset" value="137" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//Wrap the method" />
                                             <option name="possibleAnswer" value="return mailer.receiveMail()?: listOf()" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -1128,8 +1128,8 @@
                             <option name="index" value="1" />
                             <option name="name" value="Functions" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -1149,19 +1149,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="31" />
+                                            <option name="length" value="217" />
                                             <option name="offset" value="0" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement add() function here" />
                                             <option name="possibleAnswer" value="fun add(vararg numbers:Int):Int{&#10;    var sum = 0&#10;&#10;    for( i in numbers ){&#10;        if( i%2 == 0 ) {&#10;            sum += i&#10;        }&#10;    }&#10;&#10;    return sum&#10;}" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="//implement add() function here&#10;&#10;/**&#10; * main method to play with&#10; */&#10;fun main(args: Array&lt;String&gt;) {&#10;    //println( add(1,2,3,4) )&#10;}" />
                                       <option name="trackChanges" value="true" />
