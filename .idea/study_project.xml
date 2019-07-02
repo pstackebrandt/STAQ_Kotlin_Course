@@ -883,8 +883,8 @@
                             <option name="index" value="9" />
                             <option name="name" value="Control Flow" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -904,19 +904,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="14" />
+                                            <option name="length" value="373" />
                                             <option name="offset" value="168" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement me" />
                                             <option name="possibleAnswer" value=" for( item in garbage){&#10;            when(item){&#10;                is Plastic, is Glass  -&gt; recyclable++&#10;                is Green -&gt; organic++&#10;                is Paper -&gt; burnables++&#10;                is Chemicals, is Oil, is Batteries -&gt; chemicals++&#10;            }&#10;       }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="class GarbageCollector {&#10;    var organic = 0&#10;    var recyclable = 0&#10;    var chemicals = 0&#10;    var burnables = 0&#10;&#10;    fun collectGarbage(garbage: List&lt;Garbage&gt;) {&#10;      //implement me&#10;    }&#10;&#10;}&#10;&#10;interface Garbage {&#10;    val collectible: Boolean&#10;}&#10;&#10;data class Plastic(override val collectible: Boolean = true) : Garbage&#10;data class Green(override val collectible: Boolean = true) : Garbage&#10;data class Paper(override val collectible: Boolean = false) : Garbage&#10;data class Glass(override val collectible: Boolean = true) : Garbage&#10;data class Chemicals(override val collectible: Boolean = false) : Garbage&#10;data class Oil(override val collectible: Boolean = false) : Garbage&#10;data class Batteries(override val collectible: Boolean = true) : Garbage&#10;&#10;&#10;&#10;&#10;" />
                                       <option name="trackChanges" value="true" />

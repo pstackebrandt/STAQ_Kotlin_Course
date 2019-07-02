@@ -5,9 +5,18 @@ class GarbageCollector {
     var burnables = 0
 
     fun collectGarbage(garbage: List<Garbage>) {
-      //implement me
+        for (part in garbage) {
+            when (part) {
+                is Plastic, is Glass -> recyclable++
+                is Green -> organic++
+                is Paper -> burnables++
+                is Chemicals, is Oil, is Batteries -> chemicals++
+                else -> {
+                    println("Unexpected garbage")
+                }
+            }
+        }
     }
-
 }
 
 interface Garbage {
