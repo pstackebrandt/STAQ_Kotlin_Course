@@ -883,7 +883,7 @@
                             <option name="index" value="9" />
                             <option name="name" value="Control Flow" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -910,7 +910,7 @@
                                             <option name="placeholderText" value="//implement me" />
                                             <option name="possibleAnswer" value=" for( item in garbage){&#10;            when(item){&#10;                is Plastic, is Glass  -&gt; recyclable++&#10;                is Green -&gt; organic++&#10;                is Paper -&gt; burnables++&#10;                is Chemicals, is Oil, is Batteries -&gt; chemicals++&#10;            }&#10;       }" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -958,8 +958,8 @@
                             <option name="index" value="10" />
                             <option name="name" value="Nullable Types" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -968,7 +968,7 @@
                                       <option name="answerPlaceholders">
                                         <list />
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="class Client( val personalInfo: PersonalInfo? )&#10;&#10;class PersonalInfo( val email: String? )&#10;&#10;interface Mailer {&#10;    fun sendMessage(email: String, message: String)&#10;}&#10;&#10;&#10;fun sendMessageToClient(&#10;        client: Client?, message: String?, mailer: Mailer&#10;){&#10;    if (client == null || message == null) return&#10;&#10;    val personalInfo = client.personalInfo&#10;    if (personalInfo == null) return&#10;&#10;&#10;    val email = personalInfo.email&#10;    if( email == null ) return&#10;&#10;    mailer.sendMessage(email, message)&#10;}&#10;&#10;&#10;" />
                                       <option name="trackChanges" value="true" />
