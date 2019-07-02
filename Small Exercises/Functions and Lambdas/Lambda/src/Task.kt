@@ -1,11 +1,9 @@
 fun add(vararg numbers:Int):Int{
     var sum = 0
 
-    for( i in numbers ){
-        if( i%2 == 0 ) {
-            sum += i
-        }
-    }
+    numbers.filter { number ->
+        number % 2 == 0
+    }.forEach { sum += it }
 
     return sum
 }
