@@ -2,4 +2,9 @@
 class Cat
 class Dog
 
-//implement the method
+fun <T> isAPet(subject: T): Boolean {
+    return when (subject) {
+        is Dog, is Cat -> true
+        else -> false
+    }
+}
