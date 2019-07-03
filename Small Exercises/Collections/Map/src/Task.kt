@@ -1,10 +1,12 @@
-fun handleImmutableMap(messages: Map<String,Int>): Map<String,Int> {
-    //implement me
+fun handleImmutableMap(messages: Map<String, Int>): Map<String, Int> {
+    return handleMutableMap(messages.toMutableMap())
 }
 
-fun handleMutableMap(messages: MutableMap<String,Int>): Map<String,Int> {
-  //implement me
+fun handleMutableMap(messages: MutableMap<String, Int>): Map<String, Int> {
+    messages.replace("x", 345)
+    messages.remove("z")
 
+    return messages
 }
 
 /**

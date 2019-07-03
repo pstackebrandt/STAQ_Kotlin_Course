@@ -1704,8 +1704,8 @@
                             <option name="index" value="2" />
                             <option name="name" value="Map" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -1725,13 +1725,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="14" />
-                                            <option name="offset" value="73" />
+                                            <option name="length" value="48" />
+                                            <option name="offset" value="75" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement me" />
                                             <option name="possibleAnswer" value="return handleMutableMap(messages.toMutableMap())" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -1747,19 +1747,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="14" />
-                                            <option name="offset" value="167" />
+                                            <option name="length" value="54" />
+                                            <option name="offset" value="205" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement me" />
                                             <option name="possibleAnswer" value="  if(messages.containsKey(&quot;x&quot; ) ){&#10;        messages[&quot;x&quot;] = 345&#10;    }&#10;&#10;    messages.remove(&quot;z&quot;)&#10;&#10;    return messages" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="fun handleImmutableMap(messages: Map&lt;String,Int&gt;): Map&lt;String,Int&gt; {&#10;    //implement me&#10;}&#10;&#10;fun handleMutableMap(messages: MutableMap&lt;String,Int&gt;): Map&lt;String,Int&gt; {&#10;  //implement me&#10;&#10;}&#10;&#10;/**&#10; * A main function to play with&#10; */&#10;fun main(args: Array&lt;String&gt;) {&#10;    println(handleImmutableMap(mapOf(&quot;m&quot; to 123)))&#10;}" />
                                       <option name="trackChanges" value="true" />
