@@ -1330,8 +1330,8 @@
                             <option name="index" value="4" />
                             <option name="name" value="Higher order Functions" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -1353,19 +1353,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="27" />
+                                            <option name="length" value="277" />
                                             <option name="offset" value="209" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement elapse function" />
                                             <option name="possibleAnswer" value="fun elapse(block: () -&gt; Unit): Long {&#10;        var start = System.currentTimeMillis()&#10;        block()&#10;        val end = System.currentTimeMillis() - start&#10;        println(&quot;end [$end] time&quot;)&#10;        return end&#10;    }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="object Stopwatch {&#10;&#10;    /**&#10;     * Measures execution time in ms of a given callback&#10;     *&#10;     *  @param block the function to measure&#10;     *  @return time elapsed = end time - start time&#10;     *&#10;     */&#10;    //implement elapse function&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;&#10;    val init: (Int) -&gt; Int = { i -&gt; i * i }&#10;    val numbers = Array(100000, init)&#10;&#10;    Stopwatch.elapse { numbers.forEach { i -&gt; println(i) } }&#10;}&#10;" />
                                       <option name="trackChanges" value="true" />
