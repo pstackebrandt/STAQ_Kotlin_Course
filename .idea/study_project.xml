@@ -1704,7 +1704,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Map" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -1731,7 +1731,7 @@
                                             <option name="placeholderText" value="//implement me" />
                                             <option name="possibleAnswer" value="return handleMutableMap(messages.toMutableMap())" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -1753,7 +1753,7 @@
                                             <option name="placeholderText" value="//implement me" />
                                             <option name="possibleAnswer" value="  if(messages.containsKey(&quot;x&quot; ) ){&#10;        messages[&quot;x&quot;] = 345&#10;    }&#10;&#10;    messages.remove(&quot;z&quot;)&#10;&#10;    return messages" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -1814,8 +1814,8 @@
                             <option name="index" value="1" />
                             <option name="name" value="Extension Function introduction" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -1835,19 +1835,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="30" />
+                                            <option name="length" value="34" />
                                             <option name="offset" value="0" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//Implement extension function" />
                                             <option name="possibleAnswer" value="fun String.hello() = &quot;hello $this&quot;&#10;" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="//Implement extension function&#10;&#10;/**&#10; * Usage example&#10; */&#10;fun main(args: Array&lt;String&gt;) {&#10;    println( &quot;Wall-E&quot;.hello() )&#10;}" />
                                       <option name="trackChanges" value="true" />

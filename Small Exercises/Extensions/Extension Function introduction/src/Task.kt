@@ -1,4 +1,4 @@
-//Implement extension function
+fun String.hello() = "hello $this"
 
 /**
  * Usage example
