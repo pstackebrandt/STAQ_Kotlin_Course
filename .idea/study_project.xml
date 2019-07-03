@@ -1814,7 +1814,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Extension Function introduction" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -1841,7 +1841,7 @@
                                             <option name="placeholderText" value="//Implement extension function" />
                                             <option name="possibleAnswer" value="fun String.hello() = &quot;hello $this&quot;&#10;" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -1889,8 +1889,8 @@
                             <option name="index" value="2" />
                             <option name="name" value="Extension Function" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -1910,19 +1910,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="51" />
+                                            <option name="length" value="159" />
                                             <option name="offset" value="0" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//Implement the oneMinus() extension for Array&lt;Int&gt;" />
                                             <option name="possibleAnswer" value="&#10;fun Array&lt;Int&gt;.oneMinus():Array&lt;Int&gt; {&#10;    val result = this.clone()&#10;    for( i in this.indices) {&#10;        result[i] = 1 - this[i]&#10;    }&#10;    return result&#10;}" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="//Implement the oneMinus() extension for Array&lt;Int&gt;&#10;&#10;/**&#10; * Usage example&#10; */&#10;fun main(args:Array&lt;String&gt;){&#10;    val myArray = arrayOf(3,4,5)&#10;    val minusArray:Array&lt;Int&gt; = myArray.oneMinus()&#10;&#10;    minusArray.forEach { println(&quot;* $it&quot;) }&#10;}" />
                                       <option name="trackChanges" value="true" />

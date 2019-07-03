@@ -1,4 +1,13 @@
-//Implement the oneMinus() extension for Array<Int>
+fun Array<Int>.oneMinus(): Array<Int> {
+
+    val result = this.clone()
+
+    for (i in this.indices) {
+        result[i] = 1 - this[i]
+    }
+
+    return result
+}
 
 /**
  * Usage example
