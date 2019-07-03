@@ -1,10 +1,17 @@
 fun handleImmutableList(messages: List<String>): List<String> {
-    // implement me
+    return handleMutableList(messages.toMutableList())
 }
 
 fun handleMutableList(messages: MutableList<String>): List<String> {
-// implement me
 
+    if (messages.count() > 2) {
+        messages[2] = "d"
+    }
+
+    if (messages.count() > 1) {
+        messages.removeAt(1)
+    }
+    return messages
 }
 
 /**
