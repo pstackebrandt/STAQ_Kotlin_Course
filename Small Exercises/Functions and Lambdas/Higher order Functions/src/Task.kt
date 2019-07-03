@@ -7,7 +7,15 @@ object Stopwatch {
      *  @return time elapsed = end time - start time
      *
      */
-    //implement elapse function
+    fun elapse(block: () -> Unit): Long {
+        val startTime = System.currentTimeMillis()
+        println("Start time $startTime")
+        block()
+        println("Start time $startTime")
+        val endTime = System.currentTimeMillis()
+
+        return endTime - startTime
+    }
 }
 
 fun main(args: Array<String>) {
