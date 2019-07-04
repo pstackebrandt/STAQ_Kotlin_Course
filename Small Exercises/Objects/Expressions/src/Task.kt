@@ -10,12 +10,18 @@ object PrintShop {
 }
 
 class PrintShopOwner {
-
     var printedDocument = ""
 
     fun printIt(document: String) {
 
-        PrintShop.printDocument(document, //implement object expression here)
+        var printer = object : Printer {
+            override fun print(document: String) {
+                println(document)
+                printedDocument = document
+            }
+        }
+
+        PrintShop.printDocument(document, printer)
     }
 }
 
@@ -28,6 +34,4 @@ fun main(args: Array<String>) {
 
     val printedDocument = owner.printedDocument
     println(printedDocument)
-
-
 }

@@ -1977,7 +1977,7 @@
                             <option name="index" value="1" />
                             <option name="name" value="Declarations" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -2004,7 +2004,7 @@
                                             <option name="placeholderText" value="//Declare here the counter" />
                                             <option name="possibleAnswer" value="object Counter{&#10;    private var count = 0&#10;&#10;    fun countUp()=&#10;        ++count&#10;}" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2052,8 +2052,8 @@
                             <option name="index" value="2" />
                             <option name="name" value="Expressions" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -2073,19 +2073,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="34" />
-                                            <option name="offset" value="309" />
+                                            <option name="length" value="7" />
+                                            <option name="offset" value="510" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement object expression here" />
                                             <option name="possibleAnswer" value="object : Printer {&#10;            override fun print(document: String) {&#10;                printedDocument = document&#10;            }&#10;&#10;        }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="interface Printer {&#10;    fun print(document: String)&#10;}&#10;&#10;object PrintShop {&#10;&#10;    fun printDocument(document: String, printer: Printer) {&#10;        printer.print(document)&#10;    }&#10;}&#10;&#10;class PrintShopOwner {&#10;&#10;    var printedDocument = &quot;&quot;&#10;&#10;    fun printIt(document: String) {&#10;&#10;        PrintShop.printDocument(document, //implement object expression here)&#10;    }&#10;}&#10;&#10;fun main(args: Array&lt;String&gt;) {&#10;&#10;    val owner = PrintShopOwner()&#10;    val document = &quot;Photo book&quot;&#10;&#10;    owner.printIt(document)&#10;&#10;    val printedDocument = owner.printedDocument&#10;    println(printedDocument)&#10;&#10;&#10;}" />
                                       <option name="trackChanges" value="true" />
