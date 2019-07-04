@@ -1,7 +1,15 @@
 class Plumbus private constructor(val id: Int) {
+    companion object PlumbusFactory {
 
+        var count = 0
 
-    //add the companion object here
+        fun create(): Plumbus {
+            count++
+
+            return Plumbus(count)
+        }
+    }
+
 }
 
 

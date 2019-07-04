@@ -2052,7 +2052,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Expressions" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -2074,12 +2074,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="7" />
-                                            <option name="offset" value="510" />
+                                            <option name="offset" value="502" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//implement object expression here" />
                                             <option name="possibleAnswer" value="object : Printer {&#10;            override fun print(document: String) {&#10;                printedDocument = document&#10;            }&#10;&#10;        }" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2127,8 +2127,8 @@
                             <option name="index" value="3" />
                             <option name="name" value="Companion objects" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -2148,19 +2148,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="31" />
-                                            <option name="offset" value="55" />
+                                            <option name="length" value="0" />
+                                            <option name="offset" value="214" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//add the companion object here" />
                                             <option name="possibleAnswer" value="companion object PlumbusFactory {&#10;        var count = 0&#10;            private set&#10;&#10;        fun create(): Plumbus {&#10;            count++&#10;            return Plumbus(count)&#10;        }&#10;    }" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="class Plumbus private constructor(val id: Int) {&#10;&#10;&#10;    //add the companion object here&#10;}&#10;&#10;&#10;fun main() {&#10;//    Plumbus.create()&#10;//    Plumbus.create()&#10;//    Plumbus.create()&#10;//    Plumbus.create()&#10;//    val myFirstPlumbus = Plumbus.create()&#10;//    println(&quot;My first plumbus id: ${myFirstPlumbus.id}&quot;)&#10;//    println(&quot;Total production cound: ${Plumbus.count}&quot;)&#10;&#10;//    myFirstPlumbus.create() //not possible&#10;}&#10;" />
                                       <option name="trackChanges" value="true" />
