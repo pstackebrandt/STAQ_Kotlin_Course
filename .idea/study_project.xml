@@ -2215,8 +2215,8 @@
                             <option name="index" value="1" />
                             <option name="name" value="Unit testing" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -2236,13 +2236,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="39" />
+                                            <option name="length" value="9" />
                                             <option name="offset" value="1027" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//add here the expected test data value" />
                                             <option name="possibleAnswer" value="testUsers" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2258,13 +2258,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="20" />
-                                            <option name="offset" value="1088" />
+                                            <option name="length" value="13" />
+                                            <option name="offset" value="1058" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//call getAllUsers()" />
                                             <option name="possibleAnswer" value="getAllUsers()" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2280,13 +2280,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="39" />
-                                            <option name="offset" value="1265" />
+                                            <option name="length" value="5" />
+                                            <option name="offset" value="1228" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//add here the expected test data value" />
                                             <option name="possibleAnswer" value="user3" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2302,13 +2302,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="20" />
-                                            <option name="offset" value="1326" />
+                                            <option name="length" value="21" />
+                                            <option name="offset" value="1255" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//call getUserById()" />
                                             <option name="possibleAnswer" value="getUserById(user3.id)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2324,13 +2324,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="18" />
-                                            <option name="offset" value="1526" />
+                                            <option name="length" value="23" />
+                                            <option name="offset" value="1456" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//call getUserById" />
                                             <option name="possibleAnswer" value="getUserById(unknown.id)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2346,13 +2346,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="39" />
-                                            <option name="offset" value="1708" />
+                                            <option name="length" value="21" />
+                                            <option name="offset" value="1643" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//add here the expected test data value" />
                                             <option name="possibleAnswer" value="testUsersWithRoleRead" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2368,13 +2368,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="32" />
-                                            <option name="offset" value="1769" />
+                                            <option name="length" value="29" />
+                                            <option name="offset" value="1686" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//call filterUsersOnPermission()" />
                                             <option name="possibleAnswer" value="filterUsersOnPermission(READ)" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2390,19 +2390,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="27" />
-                                            <option name="offset" value="2063" />
+                                            <option name="length" value="0" />
+                                            <option name="offset" value="2011" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="// implement here your test" />
                                             <option name="possibleAnswer" value="        removeUser(user1)&#10;        assertFalse(&quot;Should not contain $user1&quot;, getAllUsers().contains(user1))&#10;" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="import Permissions.READ&#10;import org.junit.After&#10;import org.junit.Assert.*&#10;import org.junit.Before&#10;import org.junit.Test&#10;&#10;class UserTest {&#10;&#10;    companion object TestData {&#10;        private val user1 = UserDTO(&quot;1109331&quot;, READ)&#10;        private val user2 = UserDTO(&quot;1109333&quot;, Permissions.WRITE)&#10;        private val user3 = UserDTO(&quot;1109334&quot;, Permissions.OWNER)&#10;        private val user4 = UserDTO(&quot;1109335&quot;, Permissions.ADMIN)&#10;        private val user5 = UserDTO(&quot;1109336&quot;, Permissions.ADMIN)&#10;        private val user6 = UserDTO(&quot;1109337&quot;, READ)&#10;        private val unknown = UserDTO(&quot;1109338&quot;, READ)&#10;&#10;        private val testUsers = arrayListOf(user1, user2, user3, user4, user5, user6)&#10;        private val testUsersWithRoleRead = arrayListOf(user1, user6)&#10;    }&#10;&#10;    @Before&#10;    fun setup() {&#10;        // add all users&#10;        addAllUser(testUsers)&#10;    }&#10;&#10;    @After&#10;    fun teardown() {&#10;        // clear all users&#10;        clearAllUser()&#10;    }&#10;&#10;&#10;    @Test&#10;    fun `when getAllUsers then return all users`() {&#10;        val expected = //add here the expected test data value&#10;        val actual = //call getAllUsers()&#10;&#10;        assertEquals(&quot;Should return $testUsers&quot;, expected, actual)&#10;    }&#10;&#10;    @Test&#10;    fun `when GetUserById then return user`() {&#10;        val expected = //add here the expected test data value&#10;        val actual = //call getUserById()&#10;&#10;        assertEquals(&quot;Should return $user3&quot;, expected, actual)&#10;    }&#10;&#10;    @Test&#10;    fun `when GetUserById with unknown id then should return null value`() {&#10;        val actual = //call getUserById&#10;&#10;        assertNull(&quot;Should be null&quot;, actual)&#10;    }&#10;&#10;    @Test&#10;    fun `when filter on permission is set to read then return two users`() {&#10;        val expected = //add here the expected test data value&#10;        val actual = //call filterUsersOnPermission()&#10;&#10;        assertEquals(&quot;Should return $testUsersWithRoleRead&quot;, expected, actual)&#10;    }&#10;&#10;    @Test&#10;    fun `when removing 'user1' then the repository should not contain that user anymore`() {&#10;        //remove user&#10;        //check that user is not a part anymore&#10;&#10;// implement here your test&#10;    }&#10;&#10;}" />
                                       <option name="trackChanges" value="true" />

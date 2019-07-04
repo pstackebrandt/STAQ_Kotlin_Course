@@ -4,6 +4,7 @@ import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
 
+
 class UserTest {
 
     companion object TestData {
@@ -31,44 +32,41 @@ class UserTest {
         clearAllUser()
     }
 
-
     @Test
     fun `when getAllUsers then return all users`() {
-        val expected = //add here the expected test data value
-        val actual = //call getAllUsers()
+        val expected = testUsers
+        val actual = getAllUsers()
 
         assertEquals("Should return $testUsers", expected, actual)
     }
 
     @Test
     fun `when GetUserById then return user`() {
-        val expected = //add here the expected test data value
-        val actual = //call getUserById()
+        val expected = user3
+        val actual = getUserById(user3.id)
 
         assertEquals("Should return $user3", expected, actual)
     }
 
     @Test
     fun `when GetUserById with unknown id then should return null value`() {
-        val actual = //call getUserById
+        val actual = getUserById(unknown.id)
 
         assertNull("Should be null", actual)
     }
 
     @Test
     fun `when filter on permission is set to read then return two users`() {
-        val expected = //add here the expected test data value
-        val actual = //call filterUsersOnPermission()
+        val expected = testUsersWithRoleRead
+        val actual = filterUsersOnPermission(READ)
 
         assertEquals("Should return $testUsersWithRoleRead", expected, actual)
     }
 
     @Test
     fun `when removing 'user1' then the repository should not contain that user anymore`() {
-        //remove user
-        //check that user is not a part anymore
-
-// implement here your test
+        removeUser(user1)
+        assertFalse("Should not contain $user1", getAllUsers().contains(user1))
     }
 
 }
