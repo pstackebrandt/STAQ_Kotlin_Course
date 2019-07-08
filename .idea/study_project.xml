@@ -2493,7 +2493,7 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="202" />
+                                            <option name="length" value="205" />
                                             <option name="offset" value="157" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//FIXME: assign the dogCarrier to a new variable &quot;myCarrier&quot;. The following doesn't work:&#10;//var myCarrier: Carrier&lt;Animal&gt;= dogCarrier &#10;&#10;//Temporary placeholder:&#10;var myCarrier: Carrier&lt;*&gt;? = null" />
@@ -2547,8 +2547,8 @@
                             <option name="index" value="2" />
                             <option name="name" value="Variance - covariance" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -2568,13 +2568,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="214" />
+                                            <option name="length" value="222" />
                                             <option name="offset" value="37" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="class Carrier&lt;T&gt;(private var thing: T){&#10;    private var name:String = &quot;unnamed&quot;&#10;    fun getThing():T = thing&#10;&#10;    fun addThing(thing:T) { this.thing = thing}&#10;    fun changeName(newName:String) { name = newName }&#10;&#10;}" />
                                             <option name="possibleAnswer" value="&#10;class Carrier&lt;out T&gt;(private var thing: T) {&#10;    private var name: String = &quot;unnamed&quot;&#10;    fun getThing(): T = thing&#10;&#10;    fun changeName(newName: String) {&#10;        name = newName&#10;    }&#10;&#10;}" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2590,19 +2590,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="49" />
-                                            <option name="offset" value="394" />
+                                            <option name="length" value="84" />
+                                            <option name="offset" value="402" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//Assign a dog Carrier to the animal carrier here" />
                                             <option name="possibleAnswer" value="        animalCarrier = dogCarrier" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="interface Animal&#10;&#10;class Dog : Animal&#10;class Carrier&lt;T&gt;(private var thing: T){&#10;    private var name:String = &quot;unnamed&quot;&#10;    fun getThing():T = thing&#10;&#10;    fun addThing(thing:T) { this.thing = thing}&#10;    fun changeName(newName:String) { name = newName }&#10;&#10;}&#10;&#10;&#10;class UseCase {&#10;    var animalCarrier: Carrier&lt;Animal&gt;? = null&#10;    val dogCarrier: Carrier&lt;Dog&gt; = Carrier(Dog())&#10;&#10;    fun assignCarrier() {&#10;//Assign a dog Carrier to the animal carrier here&#10;    }&#10;}&#10;" />
                                       <option name="trackChanges" value="true" />
