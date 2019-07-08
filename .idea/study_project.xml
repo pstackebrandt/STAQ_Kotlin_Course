@@ -2547,7 +2547,7 @@
                             <option name="index" value="2" />
                             <option name="name" value="Variance - covariance" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Failed" />
+                            <option name="status" value="Solved" />
                             <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
@@ -2568,13 +2568,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="222" />
+                                            <option name="length" value="223" />
                                             <option name="offset" value="37" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="class Carrier&lt;T&gt;(private var thing: T){&#10;    private var name:String = &quot;unnamed&quot;&#10;    fun getThing():T = thing&#10;&#10;    fun addThing(thing:T) { this.thing = thing}&#10;    fun changeName(newName:String) { name = newName }&#10;&#10;}" />
                                             <option name="possibleAnswer" value="&#10;class Carrier&lt;out T&gt;(private var thing: T) {&#10;    private var name: String = &quot;unnamed&quot;&#10;    fun getThing(): T = thing&#10;&#10;    fun changeName(newName: String) {&#10;        name = newName&#10;    }&#10;&#10;}" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2591,12 +2591,12 @@
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
                                             <option name="length" value="84" />
-                                            <option name="offset" value="402" />
+                                            <option name="offset" value="403" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//Assign a dog Carrier to the animal carrier here" />
                                             <option name="possibleAnswer" value="        animalCarrier = dogCarrier" />
                                             <option name="selected" value="true" />
-                                            <option name="status" value="Failed" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2644,8 +2644,8 @@
                             <option name="index" value="3" />
                             <option name="name" value="Variance - contravariance" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Failed" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -2665,13 +2665,13 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="177" />
+                                            <option name="length" value="186" />
                                             <option name="offset" value="80" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="open class Trainer&lt;T&gt; {&#10;&#10;    open fun train(target: T) {&#10;        throw NotImplementedError()&#10;    }&#10;&#10;    open fun trainedTarget(): T {&#10;        throw NotImplementedError()&#10;    }&#10;}" />
                                             <option name="possibleAnswer" value="open class Trainer&lt;in T&gt; {&#10;&#10;    open fun train(target: T) {&#10;        throw NotImplementedError()&#10;    }&#10;}" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
@@ -2687,19 +2687,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="58" />
-                                            <option name="offset" value="542" />
+                                            <option name="length" value="96" />
+                                            <option name="offset" value="551" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//Assign the generic dog trainer to the danish dog trainer" />
                                             <option name="possibleAnswer" value="danishDogTrainer = dogTrainer" />
                                             <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="status" value="Failed" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="abstract class Dog(val name: String)&#10;class DanishDog(name: String) : Dog(name)&#10;&#10;open class Trainer&lt;T&gt; {&#10;&#10;    open fun train(target: T) {&#10;        throw NotImplementedError()&#10;    }&#10;&#10;    open fun trainedTarget(): T {&#10;        throw NotImplementedError()&#10;    }&#10;}&#10;&#10;class UseCase {&#10;    var danishDogTrainer: Trainer&lt;DanishDog&gt;? = null&#10;&#10;    fun assignTrainer() {&#10;        val dogTrainer = object : Trainer&lt;Dog&gt;() {&#10;            override fun train(target: Dog) {&#10;                println(&quot;Dog ${target.name} is trained&quot;)&#10;            }&#10;        }&#10;&#10;        //Assign the generic dog trainer to the danish dog trainer&#10;    }&#10;}&#10;" />
                                       <option name="trackChanges" value="true" />
