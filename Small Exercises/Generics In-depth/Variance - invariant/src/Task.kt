@@ -12,7 +12,7 @@ fun carryDogs(): Carrier<*>? {
 //var myCarrier: Carrier<Animal>= dogCarrier 
 
 //Temporary placeholder:
-var myCarrier: Carrier<*>? = null
+    var myCarrier: Carrier<*>? = dogCarrier
 
     return myCarrier
 }

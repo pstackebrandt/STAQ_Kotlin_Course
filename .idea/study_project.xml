@@ -2472,8 +2472,8 @@
                             <option name="index" value="1" />
                             <option name="name" value="Variance - invariant" />
                             <option name="record" value="-1" />
-                            <option name="status" value="Unchecked" />
-                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="status" value="Solved" />
+                            <option name="stepikChangeStatus" value="Info and Content changed" />
                             <option name="files">
                               <map>
                                 <entry key="src/Task.kt">
@@ -2493,19 +2493,19 @@
                                               </MyInitialState>
                                             </option>
                                             <option name="initializedFromDependency" value="false" />
-                                            <option name="length" value="195" />
+                                            <option name="length" value="202" />
                                             <option name="offset" value="157" />
                                             <option name="placeholderDependency" />
                                             <option name="placeholderText" value="//FIXME: assign the dogCarrier to a new variable &quot;myCarrier&quot;. The following doesn't work:&#10;//var myCarrier: Carrier&lt;Animal&gt;= dogCarrier &#10;&#10;//Temporary placeholder:&#10;var myCarrier: Carrier&lt;*&gt;? = null" />
                                             <option name="possibleAnswer" value="var myCarrier: Carrier&lt;Dog&gt; = dogCarrier" />
-                                            <option name="selected" value="false" />
-                                            <option name="status" value="Unchecked" />
+                                            <option name="selected" value="true" />
+                                            <option name="status" value="Solved" />
                                             <option name="studentAnswer" />
                                             <option name="useLength" value="true" />
                                           </AnswerPlaceholder>
                                         </list>
                                       </option>
-                                      <option name="highlightErrors" value="false" />
+                                      <option name="highlightErrors" value="true" />
                                       <option name="name" value="src/Task.kt" />
                                       <option name="text" value="interface Animal&#10;&#10;class Dog : Animal&#10;&#10;class Carrier&lt;T&gt;(val thing: T)&#10;&#10;fun carryDogs(): Carrier&lt;*&gt;? {&#10;&#10;    val dogCarrier: Carrier&lt;Dog&gt; = Carrier(Dog())&#10;&#10;    //FIXME: assign the dogCarrier to a new variable &quot;myCarrier&quot;. The following doesn't work:&#10;//var myCarrier: Carrier&lt;Animal&gt;= dogCarrier &#10;&#10;//Temporary placeholder:&#10;var myCarrier: Carrier&lt;*&gt;? = null&#10;&#10;    return myCarrier&#10;}&#10;&#10;&#10;&#10;" />
                                       <option name="trackChanges" value="true" />
